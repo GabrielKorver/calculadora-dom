@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+
+<body>
+    <div class="container" >
+        <h1 class="titulo">CALCULADORA<strong class="stg"> JS-DOM</strong></h1>
+
+        <input type="number" name="txt1" id="txt1" placeholder="Digite o número">
+        <br>
+
+        <select id="operacao">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <br>
+
+        <input type="number" name="txt2" id="txt2" placeholder="Digite o número" >
+        <br>
+        <div id="res">Resuldado</div>
+
+        <br>
+
+        <input type="submit" value="Calcular" onclick="conta()">
+    </div>
+
+    <script src="calculadora.js"></script>
+</body>
+
+</html>
